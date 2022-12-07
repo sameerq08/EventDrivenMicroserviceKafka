@@ -13,6 +13,7 @@ public class KafkaTopicConfig {
     // create a topic using spring bean
     @Bean // Spring will recognize this method as spring bean
     public NewTopic topic(){
+
         return TopicBuilder.name(topicName).build(); // This will create instance of new topic
     }
 }

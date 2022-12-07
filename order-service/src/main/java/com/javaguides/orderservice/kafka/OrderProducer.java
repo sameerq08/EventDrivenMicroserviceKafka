@@ -33,7 +33,4 @@ public class OrderProducer {
                 .build();
         KafkaTemplate.send(message);
     }
-
-
-
 }
